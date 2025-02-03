@@ -8,7 +8,7 @@ app.use(express.json())
 app.listen('5000',()=>{console.log('Server is running on 5000')})
 
 
-mongoose.connect('mongodb://localhost:27017/demo')
+mongoose.connect('mongodb+srv://2216121:Swetha146@mycluster.ivc0s.mongodb.net/?retryWrites=true&w=majority&appName=MyCluster')
 .then(()=> console.log('database has been connected'))
 .catch((err)=>console.log(err))
 
