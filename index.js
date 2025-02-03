@@ -17,7 +17,7 @@ app.use("",productrouter)
 
 
 
-// app.get('/',(req,res)=>{
-//     res.send('server is sending this response')
-// })
+app.get('/',(req,res)=>{
+    res.send('server is sending this response')
+})
 console.log("new comment added")
