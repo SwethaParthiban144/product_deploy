@@ -16,7 +16,7 @@ exports.getSingleProduct = async(req,res)=>
 }
 exports.getAllProducts = async(req,res)=>
     {
-        try{
+        try
             const products = await Product.find()
             res.json(products)
         }
